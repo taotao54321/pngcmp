@@ -13,3 +13,9 @@ etc.
 ```sh
 $ pngcmp foo.png bar.png
 ```
+
+| return code | meaning               |
+| :---------: | -------               |
+| 0           | bitmaps are the same  |
+| 1           | bitmaps are different |
+| 2           | error                 |
